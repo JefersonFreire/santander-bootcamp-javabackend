@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST:monorail.proxy.rlwy.net}:${PGPORT:36230}/${PGDATABASE:railway}
+    username: ${PGUSER:postgres}
+    password: ${PGPASSWORD:FZSrOLULKatNfSFYRnWSNPjlOyFnXmLS}
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
